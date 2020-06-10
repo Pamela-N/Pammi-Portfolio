@@ -1,3 +1,267 @@
-*{
-    background-color: darkgoldenrod;
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.desktop-only{
+    display: none;
+}
+
+
+.box{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.icon{
+    border: 1.5px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    
+}
+
+.bars{
+    float: right;
+    margin-right: 10px;
+}
+
+
+.logo{
+    color:  #eb5e28;
+    text-align: center;
+    font-weight: 300;
+
+}
+.line{
+    background-color: white;
+    width: 80vw;
+    height: 1px;
+    margin-top: 15px;
+    margin-left: 27px;
+
+    
+}
+
+/*general classes*/
+
+.hide-on-mobile{
+    display: none;
+}
+
+p, h1{
+    font-weight: 200;
+    
+}
+p{
+    margin-left: 10px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+h1,h2{
+    color: #f7931e;
+}
+
+
+button{
+    background-color: #eb5e28;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.ADA{
+    background-color: gray;
+}
+
+#butt{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+/*header section*/
+
+.block{
+    width: 100vw;
+    text-align: center;
+    background: rgb(27, 27, 27);
+    margin: auto;
+    padding: 40px;
+}
+
+.curly{
+    display: inline-block;
+    font-size: 150px;
+    font-weight: 200;
+    color: lightslategray;
+}
+
+.hi{
+    display: inline-block;
+    font-size: 140px;
+    font-weight: 200;
+    color: white;
+}
+
+.tagline{
+    font-weight: 300;
+    color:  #f7931e;
+}
+
+.Orange{
+    background-color: #eb5e28;
+    color: white;
+    width: 120px;
+    height: 120px;
+    margin-top: 3px;
+}
+
+.test{
+    position: relative;
+    right: 79.8px;
+}
+
+.paras{
+    position: relative;
+    width: 40vw;
+    left: 15vw; 
+    bottom: 240px;
+    margin-right: 5px;
+    margin-left: 85px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.name{
+    position: relative;
+    left: 35px;
+    bottom: 240px;
+    margin-left: 15px;
+}
+
+
+/* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // --------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    /*general classes*/
+    
+
+    /*header section*/
+    
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) { 
+}
+
+/* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+/* --------------------------------------------------------------Extra large devices landscape */
+@media (min-width: 1200px) and (orientation: landscape) {
+     /*general classes*/
+     .box{
+        float: right;
+        margin-top: 70px;
+        margin-right: 85px;
+    }
+
+    .logo{
+        margin-left: 50px;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    .line{
+        background-color: gray;
+        width: 90vw;
+        height: 1px;
+        margin-top: 60px;
+        margin-left: 50px;
+ 
+    }
+
+    .block{
+        width: 90vw;
+        text-align: center;
+        background: rgb(27, 27, 27);
+        margin: auto;
+        padding: 50px 50px;
+    }
+
+
+
+    /*header section*/
+    
+ .desktop-only{
+     display: inline-block;
+     margin-left: 30vw;
+     
+ }
+ a{
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     padding: 5px;
+     font-size: 1.2em;
+     font-weight: 200;
+
+ }
+
+ /* body section */
+
+ #pamela{
+     position: relative;
+     right: 300px;
+     width: 400px;
+     height: 400px;
+ }
+
+ h2{
+     position: relative;
+     left: 280px;
+     top: 100px;
+ }
+
+ .pammi{
+     position: relative;
+     left: 700px;
+     bottom: 350px;
+    width: 310px;
+    height: 310px;
+ }
+
+ #pammi{
+     display: none;
+ }
+}
+
+/* --------------------------------------------------------------Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 }
