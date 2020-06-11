@@ -61,7 +61,7 @@ p, h1{
     
 }
 p{
-    margin-left: 10px;
+    text-align: left;
 }
 
 h2{
@@ -70,6 +70,12 @@ h2{
 
 h1,h2{
     color: #f7931e;
+}
+
+#pamela{
+    border:2px solid white;
+    box-shadow: -20px -20px lightgray;
+
 }
 
 
@@ -101,7 +107,6 @@ button{
     width: 100vw;
     text-align: center;
     background: rgb(27, 27, 27);
-    margin: auto;
     padding: 40px;
 }
 
@@ -124,12 +129,13 @@ button{
     color:  #f7931e;
 }
 
+
 .Orange{
     background-color: #eb5e28;
     color: white;
     width: 120px;
     height: 120px;
-    margin-top: 3px;
+    margin-top: 3px;  
 }
 
 .test{
@@ -137,22 +143,70 @@ button{
     right: 79.8px;
 }
 
+
 .paras{
     position: relative;
-    width: 40vw;
+    width: 45vw;
     left: 15vw; 
-    bottom: 240px;
+    bottom: 243px;
     margin-right: 5px;
     margin-left: 85px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
+    word-break: break-all;
 }
 
-.name{
-    position: relative;
-    left: 35px;
-    bottom: 240px;
-    margin-left: 15px;
+
+
+input, textarea{
+    background-color: gray;
+    border:1px solid darkslategray;
+}
+
+::placeholder {
+    color: white;
+}
+
+.boxTwo{
+    width: 100vw;
+    text-align: center;
+}
+
+.iconf{
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    
+}
+
+.copy, #full {
+    font-size: 13px;
+    display: inline-block;
+}
+
+#full{
+ color: #f7931e;
+}
+
+.moMenu{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.times{
+    float: right;
+    margin-right: 10px;
+}
+
+.menuOne{
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
 
@@ -215,6 +269,12 @@ button{
         padding: 50px 50px;
     }
 
+    p{
+        font-size: 17px;
+        text-align: left;
+        word-spacing: 3 px;
+        word-break: keep-all;
+    }
 
 
     /*header section*/
@@ -243,11 +303,7 @@ button{
      height: 400px;
  }
 
- h2{
-     position: relative;
-     left: 280px;
-     top: 100px;
- }
+ 
 
  .pammi{
      position: relative;
@@ -259,6 +315,11 @@ button{
 
  #pammi{
      display: none;
+ }
+
+ .Testimonials {
+     display: grid;
+     
  }
 }
 
