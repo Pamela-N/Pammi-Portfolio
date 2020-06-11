@@ -72,6 +72,10 @@ h1,h2{
     color: #f7931e;
 }
 
+#cool{
+    color: darkgrey;
+}
+
 #pamela{
     border:2px solid white;
     box-shadow: -20px -20px lightgray;
@@ -135,25 +139,27 @@ button{
     color: white;
     width: 120px;
     height: 120px;
-    margin-top: 3px;  
+    /* margin-top: 3px;   */
 }
 
-.test{
-    position: relative;
-    right: 79.8px;
+
+
+#name{
+    text-align: center;
+    font-weight: 500;
 }
 
 
 .paras{
-    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 45vw;
-    left: 15vw; 
-    bottom: 243px;
-    margin-right: 5px;
-    margin-left: 85px;
-    font-size: 14px;
-    text-align: left;
-    word-break: break-all;
+
+
+}
+
+.academy, .laura, .kate, .Andy{
+    display: inline-flex;
 }
 
 
@@ -161,6 +167,7 @@ button{
 input, textarea{
     background-color: gray;
     border:1px solid darkslategray;
+    width: 300px;
 }
 
 ::placeholder {
@@ -318,9 +325,21 @@ input, textarea{
  }
 
  .Testimonials {
-     display: grid;
+     display: inline-flex;  
      
  }
+
+ .academy, .laura, .kate, .Andy{
+     margin-top: 20px;
+ }
+
+ .paras{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25vw;
+
+
+}
 }
 
 /* --------------------------------------------------------------Internet Explorer */
