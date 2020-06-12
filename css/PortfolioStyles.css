@@ -20,7 +20,7 @@ body{
 
 .icon{
     border: 1.5px solid white;
-    border-radius: 50%;
+    border-radius: 50px;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
@@ -142,6 +142,14 @@ button{
     /* margin-top: 3px;   */
 }
 
+ .Oraicon{
+     font-size: 25px;
+     margin-top: 10px;
+ }
+
+ #tact{
+     margin-left: 27px;
+ }
 
 
 #name{
@@ -198,23 +206,34 @@ input, textarea{
 }
 
 .moMenu{
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
     width: 100vw;
     height: 100vh;
-    display: none;
+    overflow-y: hidden;
 }
 
-.times{
+.time{
     float: right;
     margin-right: 10px;
 }
 
 .menuOne{
-    display: grid;
-    text-align: center;
+   position: relative;
+   top: 150px;
+
+}
+
+#one{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
+
+
 
 
 /* --------------------------------------------------------------media queries */
@@ -289,6 +308,7 @@ input, textarea{
  .desktop-only{
      display: inline-block;
      margin-left: 30vw;
+     font-size: 20px ;
      
  }
  a{
@@ -296,32 +316,101 @@ input, textarea{
      text-decoration: none;
      color: white;
      padding: 5px;
+     margin-left: 3px;
      font-size: 1.2em;
      font-weight: 200;
 
  }
 
+ .tagline{
+     text-align: center;
+     font-size: 20px;
+ }
+
+ .arrow{
+    border: 1.5px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30vw;
+ }
+
  /* body section */
 
+ .about{
+     display: inline-flex;
+ }
+
  #pamela{
-     position: relative;
-     right: 300px;
      width: 400px;
      height: 400px;
  }
 
- 
-
- .pammi{
+ #me{
+     margin-left: 35vw;
      position: relative;
-     left: 700px;
-     bottom: 350px;
-    width: 310px;
-    height: 310px;
+     top: 70px;
+     
+ }
+ h2{
+     font-size: 45px;
+ }
+
+ button{
+    background-color: #eb5e28;
+    border: none;
+    border-radius: 25px;
+    width: 270px;
+    height: 45px;
+    padding: 10px 20px;
+}
+ .pammi{
+     width: 30vw;
+     margin-left: 60px;
+     margin-top: 80px;
+     padding: 0;
  }
 
  #pammi{
      display: none;
+ }
+
+ #mina{
+    margin-left: 40vw;
+    position: relative;
+    top: 70px;
+    width: 25vw;
+ }
+
+ .graduate{
+     display: inline-flex;
+ }
+
+ .Grad{
+     width: 50vw;
+     margin-top: 70px;
+     margin-left: 40px;
+ }
+
+ .buttonz{
+     display: inline-flex;
+     margin-left: 35vw;
+     width: 50vw;
+     position: relative;
+     bottom: 75px;
+
+ }
+
+ .ADA{
+     margin-right: 15px ;
+ }
+
+ #ADA{
+    width: 400px;
+    height: 400px;
  }
 
  .Testimonials {
@@ -339,6 +428,15 @@ input, textarea{
     width: 25vw;
 
 
+}
+
+#get{
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+input, textarea{
+    width: 50vw;
 }
 }
 
