@@ -1,4 +1,3 @@
-
 body{
     background-color:black;
     color: white;
@@ -51,138 +50,6 @@ body{
     
 }
 
-/*general classes*/
-
-
-p, h1{
-    font-weight: 200;
-    
-}
-p{
-    text-align: left;
-}
-
-h2{
-    font-weight: 300;
-}
-
-h1,h2{
-    color: #f7931e;
-}
-
-#cool{
-    color: darkgrey;
-}
-
-#pamela{
-    border:2px solid white;
-    box-shadow: -20px -20px lightgray;
-
-}
-
-
-button{
-    background-color: #eb5e28;
-    border: none;
-    border-radius: 25px;
-    width: 200px;
-    height: 40px;
-    padding: 10px 20px;
-}
-
-.ADA{
-    background-color: gray;
-}
-
-#butt{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    
-}
-
-
-
-/*header section*/
-
-.block{
-    width: 100vw;
-    text-align: center;
-    background: rgb(27, 27, 27);
-    padding: 40px;
-}
-
-.curly{
-    display: inline-block;
-    font-size: 150px;
-    font-weight: 200;
-    color: lightslategray;
-}
-
-.hi{
-    display: inline-block;
-    font-size: 130px;
-    font-weight: 200;
-    color: white;
-}
-
-.tagline{
-    font-weight: 300;
-    color:  #f7931e;
-}
-
-.Orange{
-    background-color: #eb5e28;
-    color: white;
-    width: 120px;
-    height: 120px;
-    /* margin-top: 3px;   */
-}
-
- .Oraicon{
-     font-size: 25px;
-     margin-top: 10px;
- }
-
- #tact{
-     margin-left: 27px;
- }
-
-
-#name{
-    text-align: center;
-    font-weight: 500;
-}
-
-
-.paras{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 50vw;
-    
-    
-
-
-}
-
-.academy, .laura, .kate, .Andy{
-    display: inline-flex;
-    padding: 5px;
-}
-
-
-
-input, textarea{
-    background-color: gray;
-    border:1px solid darkslategray;
-    width: 80vw;
-    margin-bottom: 5px;
-}
-
-::placeholder {
-    color: white;
-}
-
 .boxTwo{
     width: 100vw;
     text-align: center;
@@ -233,6 +100,40 @@ input, textarea{
     text-decoration: none;
     color: white;
     font-size: 25px;
+}
+
+
+.block{
+    width: 100vw;
+    text-align: center;
+    background: rgb(27, 27, 27);
+    padding: 40px;
+}
+
+p, h1{
+    font-weight: 200;
+    
+}
+p{
+    text-align: left;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+h1,h2{
+    color: #f7931e;
+}
+
+#ad {
+    color: #f7931e;
+    font-weight: 500;
 }
 
 
@@ -297,12 +198,12 @@ input, textarea{
         padding: 50px 50px;
     }
 
-    p{
+    /* p{
         font-size: 17px;
         text-align: left;
         word-spacing: 3 px;
         word-break: keep-all;
-    }
+    } */
 
 
     /*header section*/
@@ -325,128 +226,38 @@ input, textarea{
  }
 
  a:hover{
-     color: #eb5e28;
- }
-
- .tagline{
-     text-align: center;
-     font-size: 20px;
- }
-
- .arrow{
-    border: 1.5px solid lightslategray ;
-    border-radius: 50px;
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: 360px;
-    color: lightslategray;
- }
+    color: #eb5e28;
+}
 
  /* body section */
 
- .about{
-     display: inline-flex;
+ .content{
+     display: flex;
  }
 
- #pamela{
-     width: 400px;
-     height: 400px;
- }
-
- #me{
-     margin-left: 35vw;
-     position: relative;
-     top: 70px;
-     
- }
- h2{
-     font-size: 45px;
- }
-
- button{
-    background-color: #eb5e28;
-    border: none;
-    border-radius: 25px;
-    width: 270px;
-    height: 45px;
-    padding: 10px 20px;
-}
- .pammi{
-     width: 40vw;
-     margin-left: 150px;
-     margin-top: 80px;
-     padding: 0;
- }
-
- #pammi{
-     display: none;
- }
-
- #mina{
-    margin-left: 40vw;
-    position: relative;
-    top: 70px;
-    width: 25vw;
- }
-
- .graduate{
-     display: inline-flex;
- }
-
- .Grad{
+ .ada{
      width: 50vw;
-     margin-top: 70px;
-     margin-left: 40px;
  }
 
- .buttonz{
-     display: inline-flex;
-     margin-left: 35vw;
-     width: 50vw;
-     position: relative;
-     bottom: 75px;
-
- }
-
- .ADA{
-     margin-right: 15px ;
- }
-
- #ADA{
-    width: 400px;
-    height: 400px;
- }
-
- .Testimonials {
-     display: inline-flex;  
-     
- }
-
- .academy, .laura, .kate, .Andy{
-     margin-top: 20px;
- }
-
- .paras{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 25vw;
-
-
-}
-
-#get{
-    width: 40vw;
-    margin-left: 20vw;
-}
-
-input, textarea{
+ .coding{
     width: 50vw;
-    padding: 10px 5px;
-    margin-bottom: 5px;
-}
+    margin-left: 50px;
+ }
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
 }
 
 /* --------------------------------------------------------------Internet Explorer */

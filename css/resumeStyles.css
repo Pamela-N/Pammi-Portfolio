@@ -1,4 +1,3 @@
-
 body{
     background-color:black;
     color: white;
@@ -49,138 +48,6 @@ body{
     margin-left: 35px
 
     
-}
-
-/*general classes*/
-
-
-p, h1{
-    font-weight: 200;
-    
-}
-p{
-    text-align: left;
-}
-
-h2{
-    font-weight: 300;
-}
-
-h1,h2{
-    color: #f7931e;
-}
-
-#cool{
-    color: darkgrey;
-}
-
-#pamela{
-    border:2px solid white;
-    box-shadow: -20px -20px lightgray;
-
-}
-
-
-button{
-    background-color: #eb5e28;
-    border: none;
-    border-radius: 25px;
-    width: 200px;
-    height: 40px;
-    padding: 10px 20px;
-}
-
-.ADA{
-    background-color: gray;
-}
-
-#butt{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    
-}
-
-
-
-/*header section*/
-
-.block{
-    width: 100vw;
-    text-align: center;
-    background: rgb(27, 27, 27);
-    padding: 40px;
-}
-
-.curly{
-    display: inline-block;
-    font-size: 150px;
-    font-weight: 200;
-    color: lightslategray;
-}
-
-.hi{
-    display: inline-block;
-    font-size: 130px;
-    font-weight: 200;
-    color: white;
-}
-
-.tagline{
-    font-weight: 300;
-    color:  #f7931e;
-}
-
-.Orange{
-    background-color: #eb5e28;
-    color: white;
-    width: 120px;
-    height: 120px;
-    /* margin-top: 3px;   */
-}
-
- .Oraicon{
-     font-size: 25px;
-     margin-top: 10px;
- }
-
- #tact{
-     margin-left: 27px;
- }
-
-
-#name{
-    text-align: center;
-    font-weight: 500;
-}
-
-
-.paras{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 50vw;
-    
-    
-
-
-}
-
-.academy, .laura, .kate, .Andy{
-    display: inline-flex;
-    padding: 5px;
-}
-
-
-
-input, textarea{
-    background-color: gray;
-    border:1px solid darkslategray;
-    width: 80vw;
-    margin-bottom: 5px;
-}
-
-::placeholder {
-    color: white;
 }
 
 .boxTwo{
@@ -235,7 +102,46 @@ input, textarea{
     font-size: 25px;
 }
 
+#heading{
+    color: #f7931e;
+    font-weight: 200;
+    text-align: center;
+}
 
+h5{
+    color: #f7931e;
+}
+
+.block{
+    width: 100vw;
+    text-align: center;
+    background: rgb(27, 27, 27);
+    padding: 40px;
+}
+
+p{
+    font-weight: 200;
+    text-align: left;
+}
+
+li{
+    font-weight: 200;
+}
+
+.one{
+    display: flex;
+    text-align: center;
+}
+
+.star{
+    color: #f7931e;
+}
+
+#word{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
 
 
 /* --------------------------------------------------------------media queries */
@@ -297,12 +203,12 @@ input, textarea{
         padding: 50px 50px;
     }
 
-    p{
+    /* p{
         font-size: 17px;
         text-align: left;
         word-spacing: 3 px;
         word-break: keep-all;
-    }
+    } */
 
 
     /*header section*/
@@ -325,128 +231,79 @@ input, textarea{
  }
 
  a:hover{
-     color: #eb5e28;
- }
+    color: #eb5e28;
+}
 
- .tagline{
-     text-align: center;
-     font-size: 20px;
- }
 
- .arrow{
-    border: 1.5px solid lightslategray ;
-    border-radius: 50px;
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: 360px;
-    color: lightslategray;
- }
 
  /* body section */
 
- .about{
-     display: inline-flex;
- }
-
- #pamela{
-     width: 400px;
+ .skills{
+     background-color: #f7931e;
+     color: white;
+     width: 500px;
      height: 400px;
- }
-
- #me{
-     margin-left: 35vw;
-     position: relative;
-     top: 70px;
-     
- }
- h2{
-     font-size: 45px;
- }
-
- button{
-    background-color: #eb5e28;
-    border: none;
-    border-radius: 25px;
-    width: 270px;
-    height: 45px;
-    padding: 10px 20px;
-}
- .pammi{
-     width: 40vw;
+     padding-top: 20px;
+     text-align: center;
+     margin-top: 50px;
      margin-left: 150px;
-     margin-top: 80px;
-     padding: 0;
  }
 
- #pammi{
-     display: none;
+ #my{
+     color: white;
  }
 
- #mina{
-    margin-left: 40vw;
-    position: relative;
-    top: 70px;
-    width: 25vw;
+ .one{
+     margin-left: 150px;
+     font-size: 18px;
  }
 
- .graduate{
-     display: inline-flex;
+ .star{
+     color: white;
  }
 
- .Grad{
-     width: 50vw;
-     margin-top: 70px;
-     margin-left: 40px;
+ .all{
+     display: flex;
  }
 
- .buttonz{
-     display: inline-flex;
-     margin-left: 35vw;
-     width: 50vw;
-     position: relative;
-     bottom: 75px;
+ .about{
+     width: 500px;
+     text-align: left;
+     margin: 10px;
 
  }
 
- .ADA{
-     margin-right: 15px ;
+ .alles{
+     display: flex;
  }
 
- #ADA{
-    width: 400px;
-    height: 400px;
+ .experience, .education{
+     width: 500px;
+     text-align: left;
  }
 
- .Testimonials {
-     display: inline-flex;  
-     
+ h5{
+     text-align: center;
  }
 
- .academy, .laura, .kate, .Andy{
-     margin-top: 20px;
+ #edu{
+     margin-left: 200px;
  }
 
- .paras{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 25vw;
+ .details{
+     margin-left: 250px;
+ }
 
 
-}
 
-#get{
-    width: 40vw;
-    margin-left: 20vw;
-}
 
-input, textarea{
-    width: 50vw;
-    padding: 10px 5px;
-    margin-bottom: 5px;
-}
+
+
+
+
+ 
+
+
 }
 
 /* --------------------------------------------------------------Internet Explorer */
