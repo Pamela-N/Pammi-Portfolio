@@ -51,6 +51,10 @@ body{
 
 /*general classes*/
 
+h1{
+    text-align: center;
+}
+
 p, h1{
     font-weight: 200;
     
