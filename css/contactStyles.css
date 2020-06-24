@@ -26,7 +26,13 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     padding: 7px;
+    text-decoration: none;
+    color: white;
     
+}
+
+.icon:hover{
+    color: #eb5e28;
 }
 
 .bars{
@@ -85,7 +91,13 @@ input, textarea{
     margin-top: 10px;
     margin-left: 10px;
     padding: 7px;
+    text-decoration: none;
+    color: white;
     
+}
+
+.iconf:hover{
+    color: #eb5e28;
 }
 
 .copy, #full {
@@ -147,6 +159,10 @@ button{
     font-size: 25px;
 }
 
+#one:hover{
+    color: #f7931e;
+}
+
 /* --------------------------------------------------------------media queries */
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -162,6 +178,93 @@ button{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
+    /*general classes*/
+    .box{
+        float: right;
+        margin-top: 70px;
+        margin-right: 85px;
+    }
+
+    .logo{
+        margin-left: 130px;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    .line{
+        background-color: gray;
+        width: 90vw;
+        height: 1px;
+        margin-top: 60px;
+        margin-left: 50px;
+ 
+    }
+
+    .block{
+        width: 90vw;
+        height: auto;
+        text-align: center;
+        background: rgb(27, 27, 27);
+        margin: auto;
+        padding: 50px 50px;
+    } 
+
+      /*header section*/
+    
+ .desktop-only{
+    display: inline-block;
+    margin-left: 12vw;
+    font-size: 20px ;
+    
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 1.2em;
+    font-weight: 200;
+
+}
+
+a:hover{
+    color: #eb5e28;
+}
+
+h2{
+    font-size: 45px;
+}
+
+button{
+   background-color: #eb5e28;
+   border: none;
+   border-radius: 25px;
+   width: 270px;
+   height: 45px;
+   padding: 10px 20px;
+}
+
+#get{
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+input, textarea{
+    width: 50vw;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+}
+
+}
+
+/* --------------------------------------------------------------Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .moMenu{
+        display: none;
+    }
    
 }
 

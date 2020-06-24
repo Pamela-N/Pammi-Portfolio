@@ -26,7 +26,13 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     padding: 7px;
+    text-decoration: none;
+    color: white;
     
+}
+
+.icon:hover{
+    color: #eb5e28;
 }
 
 .bars{
@@ -190,7 +196,13 @@ input, textarea{
     margin-top: 10px;
     margin-left: 10px;
     padding: 7px;
+    text-decoration: none;
+    color: white;
     
+}
+
+.iconf:hover{
+    color: #eb5e28;
 }
 
 .copy, #full {
@@ -231,6 +243,10 @@ input, textarea{
     font-size: 25px;
 }
 
+#one:hover{
+    color: #f7931e;
+}
+
 
 
 
@@ -253,7 +269,195 @@ input, textarea{
 }
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+    /*general classes*/
+    .box{
+        float: right;
+        margin-top: 70px;
+        margin-right: 85px;
+    }
+
+    .logo{
+        margin-left: 130px;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    .line{
+        background-color: gray;
+        width: 90vw;
+        height: 1px;
+        margin-top: 60px;
+        margin-left: 50px;
+ 
+    }
+
+    .block{
+        width: 90vw;
+        text-align: center;
+        background: rgb(27, 27, 27);
+        margin: auto;
+        padding: 50px 50px;
+    }
+
+    p{
+        font-size: 17px;
+        text-align: left;
+        word-spacing: 3 px;
+        word-break: keep-all;
+    }
+
+
+    /*header section*/
+    
+ .desktop-only{
+     display: inline-block;
+     margin-left: 12vw;
+     font-size: 20px ;
+     
+ }
+ a{
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     margin-right: 5px;
+     font-size: 1.2em;
+     font-weight: 200;
+
+ }
+
+ a:hover{
+     color: #eb5e28;
+ }
+
+ .tagline{
+     text-align: center;
+     font-size: 20px;
+ }
+
+ .arrow{
+    border: 1.5px solid lightslategray ;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 150px;
+    color: lightslategray;
+ }
+
+ /* body section */
+
+ .about{
+     display: inline-flex;
+ }
+
+ #pamela{
+     width: 400px;
+     height: 400px;
+ }
+
+ #me{
+     margin-left: 38vw;
+     position: relative;
+     top: 70px;
+     
+ }
+ h2{
+     font-size: 45px;
+ }
+
+ button{
+    background-color: #eb5e28;
+    border: none;
+    border-radius: 25px;
+    width: 270px;
+    height: 45px;
+    padding: 10px 20px;
+}
+ .pammi{
+     width: 40vw;
+     margin-left: 50px;
+     margin-top: 80px;
+     padding: 0;
+ }
+
+ #pammi{
+     display: block;
+     margin-left: 50vw;
+ }
+
+ #mina{
+    margin-left: 40vw;
+    position: relative;
+    top: 70px;
+    width: 40vw;
+ }
+
+ .graduate{
+     display: inline-flex;
+ }
+
+ .Grad{
+     width: 41vw;
+     margin-top: 50px;
+     margin-left: 30px;
+ }
+
+ .buttonz{
+     display: inline-flex;
+     margin-left: 42vw;
+     width: 40vw;
+     position: relative;
+     bottom: 20px;
+
+ }
+
+ .ADA{
+     margin-right: 15px ;
+    
+ }
+
+ #butt{
+     font-weight: 200;
+ }
+
+ #ADA{
+    width: 400px;
+    height: 400px;
+ }
+
+ .Testimonials {
+     display: inline-flex;  
+     
+ }
+
+ .academy, .laura, .kate, .Andy{
+     margin-top: 20px;
+ }
+
+ .paras{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25vw;
+
+
+}
+
+#get{
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+input, textarea{
+    width: 50vw;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+} 
 }
 
 /* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
