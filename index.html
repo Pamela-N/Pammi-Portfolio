@@ -190,17 +190,20 @@
                 <br><br>
                 <p id="get">Get in touch with me by sending a message with your contact details and with what you had in mind  and I will respond as soon as I can.</p>
                 <br>
-                <form action="submit" id="getBack">
-                    <input type="text" placeholder="your name">
+                <form  action="https://formspree.io/xgenzgqw"
+                method="POST" id="getBack">
+                    <input required type="text" name="name" placeholder="your name">
                     <br>
-                    <input type="text" placeholder="your email">
+                    <input required  type="email" name="_replyto" placeholder="your email">
                     <br>
-                    <textarea rows="10" cols="32" placeholder="your message">
+                    <textarea rows="10" cols="32" name="message"
+                    placeholder="your message">
                         </textarea>
-                  </form>
-                  <br>
+
+                        <br><br>
     
-                  <button><p id="butt">Send!</p></button>
+                        <button type="submit"><p id="butt">Send!</p></button>
+                  </form>
                    
             </div>
             <br>

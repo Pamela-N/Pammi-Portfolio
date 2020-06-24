@@ -582,7 +582,12 @@ input, textarea{
  }
 
  #pammi{
-     display: none;
+     display: block;
+     margin-bottom: 60px;
+ }
+
+ #butt{
+     font-weight: 500;
  }
 
  #mina{
