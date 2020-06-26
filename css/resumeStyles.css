@@ -173,7 +173,17 @@ li{
 @media (min-width: 768px) {
     /*general classes*/
     
+    .one{
+        margin-left: 180px;
+    }
 
+    .experience p{
+        margin-left: 100px;
+    }
+
+    .details p{
+        margin-left: 200px;
+    }
     /*header section*/
     
 }
@@ -428,6 +438,10 @@ li{
  .experience, .education{
      width: 500px;
      text-align: left;
+ }
+
+ .education{
+     margin-top: 250px;
  }
 
  h5{
