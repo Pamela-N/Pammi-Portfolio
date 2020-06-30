@@ -122,7 +122,7 @@ button{
     display: inline-block;
     font-size: 150px;
     font-weight: 200;
-    color: lightslategray;
+    color: #eb5e28;
 }
 
 .hi{
@@ -530,8 +530,22 @@ input, textarea{
      color: #eb5e28;
  }
 
+ .curly{
+    display: inline-block;
+    font-size: 150px;
+    font-weight: 200;
+    color: #eb5e28;
+}
+
+.hi{
+    display: inline-block;
+    font-size: 130px;
+    font-weight: 200;
+    color: white;
+}
+
  .tagline{
-     text-align: center;
+     margin-right: 100px;
      font-size: 20px;
  }
 

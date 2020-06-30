@@ -322,6 +322,10 @@ li{
  .details{
      margin-left: 130px;
  }
+
+ .details p{
+    margin-left: 20px;
+}
 }
 
 /* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
@@ -442,19 +446,26 @@ li{
 
  .education{
      margin-top: 250px;
+     margin-left: 130px;
  }
 
- h5{
+ /* h5{
      text-align: center;
  }
 
  #edu{
      margin-left: 200px;
- }
+ } */
 
  .details{
-     margin-left: 250px;
+     margin-left: 100px;
  }
+
+ .details p{
+     margin-left: 20px;
+ }
+
+ 
 
 
 
